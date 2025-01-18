@@ -1,0 +1,35 @@
+/* Bannière */
+.banner-img {
+  width: 100%;
+  height: auto;
+}
+
+/* Logo principal */
+.logo-img {
+  width: 200px;
+  display: block;
+  margin: 1rem auto;
+}
+
+/* Section des réseaux sociaux */
+.social-section {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-icons img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
